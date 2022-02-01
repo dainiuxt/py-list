@@ -1,0 +1,204 @@
+Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+Square root of 25 is 5.0
+Length of 'Si vis pacem, para bellum' is 25 chars.
+15 / 3 = 5.0
+2022-01-31 20:04:19,045:INFO:__main__:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:04:19,045:INFO:__main__:Square root of 25 is 5.0
+2022-01-31 20:04:19,045:INFO:__main__:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:04:19,045:INFO:__main__:15 / 3 = 5.0
+2022-01-31 20:07:21,757:INFO:__main__:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:07:21,757:INFO:__main__:Square root of 25 is 5.0
+2022-01-31 20:07:21,757:ERROR:__main__:Can't calculate SQRT of a \`string\`
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 16, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:07:21,757:INFO:__main__:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:07:21,757:INFO:__main__:15 / 3 = 5.0
+2022-01-31 20:09:51,330:INFO:__main__:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:09:51,330:INFO:__main__:Square root of 25 is 5.0
+2022-01-31 20:09:51,331:ERROR:__main__:Can't calculate SQRT of a `string`
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 16, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:09:51,331:INFO:__main__:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:09:51,332:INFO:__main__:15 / 3 = 5.0
+2022-01-31 20:11:45,440:INFO:__main__:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:11:45,440:INFO:__main__:Square root of 25 is 5.0
+2022-01-31 20:11:45,440:ERROR:__main__:Can't calculate SQRT of a `string`
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 16, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:11:45,440:INFO:__main__:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:11:45,441:INFO:__main__:15 / 3 = 5.0
+2022-01-31 20:11:45,441:ERROR:__main__:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 25, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:13:06,149:INFO:__main__:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:13:06,149:INFO:__main__:Square root of 25 is 5.0
+2022-01-31 20:13:06,149:ERROR:__main__:Can't calculate SQRT of a `string`
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 20, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:13:06,151:INFO:__main__:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:13:06,152:INFO:__main__:15 / 3 = 5.0
+2022-01-31 20:13:06,153:ERROR:__main__:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 29, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:16:11,750:INFO:ultimate_sum:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:16:11,750:INFO:root:Square root of 25 is 5.0
+2022-01-31 20:16:11,750:ERROR:root:Can't calculate SQRT of a `string`
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 20, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:16:11,751:INFO:how_long:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:16:11,751:INFO:division:15 / 3 = 5.0
+2022-01-31 20:16:11,751:ERROR:division:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 29, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:18:45,005:INFO:ultimate_sum:16:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:18:45,006:INFO:root:20:Square root of 25 is 5.0
+2022-01-31 20:18:45,008:ERROR:root:22:Can't calculate SQRT of a `string`
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 20, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:18:45,011:INFO:how_long:25:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:18:45,012:INFO:division:29:15 / 3 = 5.0
+2022-01-31 20:18:45,013:ERROR:division:33:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 29, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:20:46,804:INFO:ultimate_sum:16:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:20:46,807:INFO:root:20:Square root of 25 is 5.0
+2022-01-31 20:20:46,809:ERROR:root:22:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 20, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:20:46,810:INFO:how_long:25:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:20:46,811:INFO:division:29:15 / 3 = 5.0
+2022-01-31 20:20:46,811:ERROR:division:33:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 29, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:29:45,333:INFO:ultimate_sum:16:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:29:45,334:INFO:root:20:Square root of 25 is 5.0
+2022-01-31 20:29:45,334:ERROR:root:22:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 20, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:29:45,336:INFO:how_long:25:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:29:45,337:INFO:division:29:15 / 3 = 5.0
+2022-01-31 20:29:45,337:ERROR:division:33:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 29, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:30:02,124:INFO:ultimate_sum:18:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:30:02,126:INFO:root:22:Square root of 25 is 5.0
+2022-01-31 20:30:02,128:ERROR:root:24:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 22, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:30:02,128:INFO:how_long:27:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:30:02,128:INFO:division:31:15 / 3 = 5.0
+2022-01-31 20:30:02,129:ERROR:division:35:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 31, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:32:44,200:INFO:ultimate_sum:18:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:32:44,203:INFO:root:22:Square root of 25 is 5.0
+2022-01-31 20:32:44,209:ERROR:root:24:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 22, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:32:44,216:INFO:how_long:27:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:32:44,217:INFO:division:31:15 / 3 = 5.0
+2022-01-31 20:32:44,236:ERROR:division:35:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 31, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:33:58,300:INFO:ultimate_sum:20:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:33:58,300:INFO:root:24:Square root of 25 is 5.0
+2022-01-31 20:33:58,300:ERROR:root:26:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 24, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:33:58,301:INFO:how_long:29:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:33:58,301:INFO:division:33:15 / 3 = 5.0
+2022-01-31 20:33:58,301:ERROR:division:37:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 33, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 20:34:23,818:INFO:ultimate_sum:20:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 20:34:23,818:INFO:root:24:Square root of 25 is 5.0
+2022-01-31 20:34:23,818:ERROR:root:26:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 24, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 20:34:23,819:INFO:how_long:29:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 20:34:23,819:INFO:division:33:15 / 3 = 5.0
+2022-01-31 20:34:23,819:ERROR:division:37:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 33, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 21:53:57,156:INFO:ultimate_sum:20:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 21:53:57,157:INFO:root:24:Square root of 25 is 5.0
+2022-01-31 21:53:57,157:ERROR:root:26:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 24, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 21:53:57,157:INFO:how_long:29:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 21:53:57,157:INFO:division:33:15 / 3 = 5.0
+2022-01-31 21:53:57,158:ERROR:division:37:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 33, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
+2022-01-31 21:54:44,463:INFO:ultimate_sum:20:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 21:54:44,463:INFO:root:24:Square root of 25 is 5.0
+2022-01-31 21:54:44,463:ERROR:root:26:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 24, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 21:54:44,463:INFO:how_long:29:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 21:54:44,464:INFO:division:33:15 / 3 = 5.0
+2022-01-31 21:54:44,464:ERROR:division:37:b can not be equal to ZERO
+2022-01-31 21:54:56,923:INFO:ultimate_sum:20:Sum of numbers (5, 4, 3, 2, 1) eaqual 15
+2022-01-31 21:54:56,923:INFO:root:24:Square root of 25 is 5.0
+2022-01-31 21:54:56,923:ERROR:root:26:<class 'TypeError'>
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 24, in root
+    logger.info(f"Square root of {a} is {math.sqrt(a)}")
+TypeError: must be real number, not str
+2022-01-31 21:54:56,924:INFO:how_long:29:Length of 'Si vis pacem, para bellum' is 25 chars.
+2022-01-31 21:54:56,924:INFO:division:33:15 / 3 = 5.0
+2022-01-31 21:54:56,924:ERROR:division:37:b can not be equal to ZERO
+Traceback (most recent call last):
+  File "/home/dainius/code/pyproj/listoperations/info.py", line 33, in division
+    logger.info(f"{a} / {b} = {a / b}")
+ZeroDivisionError: division by zero
